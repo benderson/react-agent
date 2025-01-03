@@ -1,15 +1,5 @@
 # LangGraph ReAct Agent Template
 
-To run:
-
-docker run     
-   --env-file .env     
-   -p 8123:8000     
-   -e REDIS_URI="redis://192.168.1.153/0"     
-   -e DATABASE_URI="postgresql://postgres:postgres@192.168.1.244:5432/postgres" 
-   react-agent
-
-
 
 [![CI](https://github.com/langchain-ai/react-agent/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/langchain-ai/react-agent/actions/workflows/unit-tests.yml)
 [![Integration Tests](https://github.com/langchain-ai/react-agent/actions/workflows/integration-tests.yml/badge.svg)](https://github.com/langchain-ai/react-agent/actions/workflows/integration-tests.yml)
